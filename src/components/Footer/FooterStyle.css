@@ -1,0 +1,119 @@
+.Footter-main-div{
+    position: absolute;
+    left: -23.9vw;
+    width: 99vw;
+    height: 70vh;
+    /* border: 1px solid red; */
+}
+.Footer-top{
+    height: 50%;
+    width: 100%;
+}
+.Footer-bottom{
+    height: 50%;
+    width: 100%;
+}
+.Footter-sub-top-div-one{
+    /* border: 1px solid blue; */
+    padding: 3vh 5vw;
+    background-color: black;
+    color: white;
+    /* padding-top: 4vh; */
+}
+.Footter-sub-top-div-one h5{
+    margin-bottom: 4vh;
+}
+.Footter-sub-top-div-one p{
+    margin-bottom: 4vh;
+}
+.Footter-sub-top-div-one input{
+    border: none;
+    margin-right: 2vw;
+}
+.Footter-sub-top-div-one button{
+    background-color: transparent;
+    border: 1px solid rgb(255, 233, 191,0.3);
+    padding: 0.5vh 1vw;
+    color: white;
+    border-radius: 5px;
+}
+.Footter-sub-top-div-two{
+   background-color: black;
+   color: white;
+   padding-top: 3vh;
+}
+
+
+.Footter-sub-bottom-div-one{
+    background-color: black;
+    color: white;
+    padding: 2vh 5vw;
+}
+.Footter-sub-bottom-div-two{
+    background-color: black;
+    color: white;
+    padding-top: 2vh;
+}
+.Footter-sub-bottom-div-three{
+    background-color: black;
+    color: white;
+    padding-top: 2vh;
+}
+.Footter-sub-bottom-div-three i{
+    font-size: 1.5rem;
+    margin-top: 1vh;
+    color: rgb(254, 12, 12,0.5);
+}
+.contact-us-mobile-footer-line{
+    display: none;
+}
+
+
+
+@media screen and (max-width:500px) {
+
+    .Footter-main-div{
+        position: absolute;
+        left: 0;
+        width: 99vw;
+        height: 80vh;
+        /* border: 1px solid red; */
+    }
+    .Footter-sub-bottom-div-one p{
+        display: none;
+    }
+    .Footter-sub-bottom-div-two p{
+        display: none;
+    }
+    .Footter-sub-top-div-two p{
+        display: none;
+    }
+    .Footter-sub-top-div-two span{
+        margin-right: 2vw;
+    }
+    .contact-us-mobile-footer-line{
+        display: block;
+    }
+
+  
+
+
+
+
+    .Footter-sub-top-div-one{
+        padding: 3vh 5vw;
+    }
+    .Footter-sub-top-div-two{
+       padding-top: 3vh 8vw;
+    }
+    
+    .Footter-sub-bottom-div-one{
+        padding: 2vh 5vw;
+    }
+    .Footter-sub-bottom-div-two{
+        padding-top: 2vh 5vw;
+    }
+    .Footter-sub-bottom-div-three{
+        padding-top: 2vh 5vw;
+    }
+}

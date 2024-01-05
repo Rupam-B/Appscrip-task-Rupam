@@ -1,0 +1,48 @@
+
+html,body {
+  margin: 0; 
+  padding: 0; 
+}
+.App {
+  text-align: center;
+}
+.arrangement{
+  display: flex;
+  flex-direction: row;
+}
+.changingScreen{
+  width: 73vw;
+    right: 2vw;
+    position: absolute;
+    margin-top: 1rem;
+    top: 60vh;
+    transition: width 0.5s ease-out;
+}
+.changingScreen-Enlarge{
+  width: 90vw;
+    right: 2vw;
+    position: absolute;
+    margin-top: 1rem;
+    top: 60vh;
+    transition: width 0.5s ease-out;
+}
+
+
+
+@media screen and (max-width:500px) {
+  .changingScreen{
+        width: 94vw;
+        right: 3vw;
+        left: 3vw;
+        position: absolute;
+        margin-top: -3rem;
+        top: 62vh;
+        /* border: 1px solid blueviolet; */
+  }
+  
+}
+
+
+@keyframes App-logo-spin {
+  
+}
