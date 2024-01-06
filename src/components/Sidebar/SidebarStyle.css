@@ -16,7 +16,7 @@ body {
 }
 .hide-sidebar{
   height: 100%;
-  width:3vw;
+  width:2vw;
   background-color: white;
   position: sticky;
   left: 0;
@@ -89,7 +89,7 @@ color: rgb(38, 34, 34);
   background-color: white;
   position: absolute;
   top: 0;
-  left: 1.5vw;
+  left: 0.5vw;
 }
 
 @media screen and (max-width: 500px) {
