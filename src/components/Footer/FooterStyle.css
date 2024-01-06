@@ -133,13 +133,12 @@
     }
     
     .Footter-sub-bottom-div-one{
-        padding: 2vh 5vw;
+        padding: 2vh 8vw 8vw 5vw;
         display: flex;
         justify-content: space-between;
         padding-right: 8vw;
         align-items: center;
         position: relative;
-        padding-bottom: 7vh;
     }
     .meta-muse-mobile-footer-line{
         display: block;
@@ -151,14 +150,13 @@
         left: 0;
     }
     .Footter-sub-bottom-div-two{
-        padding-top: 2vh 5vw;
+        padding: 2vh 5vw 8vw 1vh;
         display: flex;
         justify-content: space-between;
         padding-right: 8vw;
         align-items: center;
         position: relative;
-        padding-left: 5vw;
-        padding-bottom: 7vh;
+        
     }
     .quick-links-mobile-footer-line{
         display: block;
@@ -170,13 +168,11 @@
         left: 0;
     }
     .Footter-sub-bottom-div-three{
-        padding-top: 2vh 5vw;
+        padding: 2vh 45% 8vh 5vw;
         display: flex;
         justify-content: space-between;
         padding-right: 50%;
         align-items: center;
-        padding-bottom: 3vh;
-        padding-left: 5vw;
     }
     .hide-angle-down-large{
         display: block;
