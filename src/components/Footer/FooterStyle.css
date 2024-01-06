@@ -75,7 +75,7 @@
     display: none;
 }
 .hide-angle-down-large{
-    display: none;
+    color: black;
 }
 
 
@@ -140,5 +140,7 @@
     }
     .hide-angle-down-large{
         display: block;
+        color: white;
+        font-size: 1.2rem;
     }
 }
