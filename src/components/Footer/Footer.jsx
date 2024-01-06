@@ -16,7 +16,7 @@ const Footer = () => {
             <button>Subscribe</button>
           </div>
         </div>
-        <div style={{height:'25vh'}} className="col-md-4 Footter-sub-top-div-two">
+        <div className="col-md-4 Footter-sub-top-div-two">
           <h5>CONTACT US</h5>
           <span>9876543210</span>
           <span>Customer@BrandInfinity.com</span>
