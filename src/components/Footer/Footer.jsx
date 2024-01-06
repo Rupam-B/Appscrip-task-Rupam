@@ -34,6 +34,7 @@ const Footer = () => {
           <p>Boutiqes</p>
           <p>Contact Us</p>
           <i className="fa-solid fa-angle-down hide-angle-down-large"></i>
+          <div className="meta-muse-mobile-footer-line"></div>
         </div>
         <div className="col-md-4 Footter-sub-bottom-div-two">
           <h5>QuickLinks</h5>
@@ -44,12 +45,13 @@ const Footer = () => {
           <p>FAQs</p>
           <p>Privacy Policy</p>
           <i className="fa-solid fa-angle-down hide-angle-down-large"></i>
+          <div className="quick-links-mobile-footer-line"></div>
 
         </div>
         <div className="col-md-4 Footter-sub-bottom-div-three">
           <h5>Follow Us</h5>
-          <div><i className="fa-brands fa-instagram"></i></div>
-          <div><i className="fa-brands fa-linkedin"></i></div>
+          <div><i style={{color:'#ff4f81', fontSize:'2rem'}} className="fa-brands fa-instagram"></i></div>
+          <div><i style={{color:'#037ef3', fontSize:'2rem'}} className="fa-brands fa-linkedin"></i></div>
         </div>
       </div>
     </div>

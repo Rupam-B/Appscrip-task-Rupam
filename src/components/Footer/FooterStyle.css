@@ -77,7 +77,12 @@
 .hide-angle-down-large{
     color: black;
 }
-
+.meta-muse-mobile-footer-line{
+    display: none;
+}
+.quick-links-mobile-footer-line{
+    display: none;
+}
 
 
 @media screen and (max-width:500px) {
@@ -103,6 +108,12 @@
     }
     .contact-us-mobile-footer-line{
         display: block;
+        position: absolute;
+        height: 0.1vh;
+        width: 100vw;
+        background-color: white;
+        bottom: 0;
+        left: 0;
     }
 
     
@@ -117,26 +128,53 @@
     }
     .Footter-sub-top-div-two{
        padding-top: 3vh 8vw;
+       padding-left: 5vw;
+       position: relative;
     }
     
     .Footter-sub-bottom-div-one{
         padding: 2vh 5vw;
         display: flex;
         justify-content: space-between;
-        padding-right: 5vw;
+        padding-right: 8vw;
+        align-items: center;
+        position: relative;
+    }
+    .meta-muse-mobile-footer-line{
+        display: block;
+        position: absolute;
+        height: 0.1vh;
+        width: 100vw;
+        background-color: white;
+        bottom: 0;
+        left: 0;
     }
     .Footter-sub-bottom-div-two{
         padding-top: 2vh 5vw;
         display: flex;
         justify-content: space-between;
-        padding-right: 5vw;
+        padding-right: 8vw;
+        align-items: center;
+        position: relative;
+        padding-left: 5vw;
+    }
+    .quick-links-mobile-footer-line{
+        display: block;
+        position: absolute;
+        height: 0.1vh;
+        width: 100vw;
+        background-color: white;
+        bottom: 0;
+        left: 0;
     }
     .Footter-sub-bottom-div-three{
         padding-top: 2vh 5vw;
         display: flex;
         justify-content: space-between;
-        padding-right: 50%;
+        padding-right: 45%;
         align-items: center;
+        padding-bottom: 3vh;
+        padding-left: 5vw;
     }
     .hide-angle-down-large{
         display: block;
