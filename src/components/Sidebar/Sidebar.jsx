@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import "./SidebarStyle.css";
-// import { Link } from "react-router-dom";
 import { useDispatch } from "react-redux";
 import { SidebarOpenClose } from "../../Redux/action";
 
@@ -9,7 +8,6 @@ export const Sidebar = () => {
   const sidebarDispatch = useDispatch()
 
   const [toggleSidebar, setToggleSidebar] = useState(false);
-  // const [hideSidebar, setHideSidebar] = useState(false);
   console.log(toggleSidebar)
 
   const toggleSidebarfuncOn = () => {
