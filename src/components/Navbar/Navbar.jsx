@@ -87,14 +87,14 @@ const Navbar = () => {
                     onMouseLeave={() => handleMouseLeave(mainData.id)}
                     className={
                       newid === mainData.id
-                        ? "JamdaniNavData-container JamdaniNavData-container-active"
-                        : "JamdaniNavData-container JamdaniNavData-container-Not-active"
+                        ? "NavData-ontainer NavData-ontainer-active"
+                        : "NavData-ontainer NavData-ontainer-Not-active"
                     }
                   >
                     {NavData[index].sareeData.map((items) => (
                       <div
                         key={items.id}
-                        className="card JamdaniNavData-container-card"
+                        className="card NavData-ontainer-card"
                       >
                        <h1>{items}</h1>
                       </div>

@@ -66,7 +66,7 @@ const Home = () => {
             <div key={items.id} className="card flash-sale-container-card">
               <div className="flash-sale-container-card-img">
                 <img
-                  src={ items.image} className="card-img-top" alt="..."/>
+                  src={ items.image} className="card-img-top" alt={`Product pic for ${items.title}`}/>
               </div>
               <div className="card-body flash-sale-container-card-body">
                 <h5>{items.title.length>10?`${items.title.slice(0,10)}`:items.title}</h5>

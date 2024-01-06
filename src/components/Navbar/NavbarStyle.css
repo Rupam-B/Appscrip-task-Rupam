@@ -107,7 +107,7 @@
 }
 
 /* --------Li Display----- */
-.JamdaniNavData-container{
+.NavData-ontainer{
     position: absolute;
     top: 19vh;
     width: 100vw;
@@ -123,16 +123,16 @@
 
     
 }
-.JamdaniNavData-container-Not-active{
+.NavData-ontainer-Not-active{
     left: -100vw;
     transition: left 1s ease;
 }
-.JamdaniNavData-container-active{
+.NavData-ontainer-active{
     left: 0;
     transition: left 1s ease;
 }
 
-.JamdaniNavData-container-card{
+.NavData-ontainer-card{
     width: 100%;
     height: 35vh;
     margin-right: 0.3rem;
@@ -143,27 +143,27 @@
         justify-content: center;
         align-items: center;
 }
-.JamdaniNavData-container-card-img{
+.NavData-ontainer-card-img{
     width: 100%;
     /* height:40vh; */
     overflow: hidden;
     height: 38vh;
 }
-.JamdaniNavData-container-card-img img{
+.NavData-ontainer-card-img img{
     width: 100%;
     /* height: 100%; */
     transition: 0.8s ease;
 }
-.JamdaniNavData-container-card-img img:hover{
+.NavData-ontainer-card-img img:hover{
    transform: scale(1.1);
 
 }
-.JamdaniNavData-container-card-body{
+.NavData-ontainer-card-body{
     padding: 0;
     padding-top: 1rem;
 
 }
-.JamdaniNavData-container-card-body-button{
+.NavData-ontainer-card-body-button{
     width: 8vw;
     height: 4vh;
     font-size: 1.2rem;
@@ -175,11 +175,11 @@
     bottom: -0.6rem;
     border-radius: 1rem;
 }
-.JamdaniNavData-container-card-body-button:hover{
+.NavData-ontainer-card-body-button:hover{
     background-color:rgb(42, 2, 79);
     color:white;
 }
-.JamdaniNavData-container-card-body-title-p{
+.NavData-ontainer-card-body-title-p{
     font-size: 0.7rem;
     margin-top: 0;
     font-weight: bolder;
@@ -187,7 +187,7 @@
     padding-top: 0;
     
 }
-.JamdaniNavData-container-card-body-price-p{
+.NavData-ontainer-card-body-price-p{
     font-size: 1rem;
     margin-bottom: 0;
     font-weight: bolder;
@@ -355,7 +355,7 @@
 
 
     /* ------Drop down li----- */
-    .JamdaniNavData-container{
+    .NavData-ontainer{
         position: absolute;
         top: 16vh;
         width: 100vw;
@@ -370,7 +370,7 @@
         padding-top: 2vh;
         
     }
-    .JamdaniNavData-container-card{
+    .NavData-ontainer-card{
         width: 100%;
         height: 100%;
         margin-right: 1vw;
@@ -383,22 +383,22 @@
         
     }
 
-    .JamdaniNavData-container-card-img{
+    .NavData-ontainer-card-img{
         width: 100%;
         height:20vh;
         overflow: hidden;
     }
-    .JamdaniNavData-container-card-img img{
+    .NavData-ontainer-card-img img{
         width: 100%;
         height: 20vh;
         transition: 0.8s ease;
         object-fit: cover;
     }
-    .JamdaniNavData-container-card-img img:hover{
+    .NavData-ontainer-card-img img:hover{
        transform: scale(1.1);
     
     }
-    .JamdaniNavData-container-card-body{
+    .NavData-ontainer-card-body{
         height: 10vh;
         padding: 0;
         padding-top: 0.3rem;
@@ -406,7 +406,7 @@
         padding-right: 0.3rem;
     
     }
-    .JamdaniNavData-container-card-body-button{
+    .NavData-ontainer-card-body-button{
         width: 15vw;
         height: 3vh;
         font-size: 0.5rem;
@@ -418,14 +418,14 @@
         position: absolute;
         bottom: -0.4rem;
     }
-    .JamdaniNavData-container-card-body-title-p{
+    .NavData-ontainer-card-body-title-p{
         font-size: 0.3rem;
         margin-left: 0.5vw;
         margin-bottom: 0;
         font-weight: bolder;
         
     }
-    .JamdaniNavData-container-card-body-price-p{
+    .NavData-ontainer-card-body-price-p{
         font-size: 0.4rem;
         margin-left: 0.5vw;
         margin-bottom: 0;
