@@ -1,6 +1,13 @@
 .Footter-main-div{
     position: absolute;
-    left: -23.9vw;
+    left: -23.1vw;
+    width: 99vw;
+    height: 70vh;
+    /* border: 1px solid red; */
+}
+.Footter-main-div-Enhance{
+    position: absolute;
+    left: -6.2vw;
     width: 99vw;
     height: 70vh;
     /* border: 1px solid red; */
@@ -67,6 +74,9 @@
 .contact-us-mobile-footer-line{
     display: none;
 }
+.hide-angle-down-large{
+    display: none;
+}
 
 
 
@@ -95,6 +105,8 @@
         display: block;
     }
 
+    
+
   
 
 
@@ -109,11 +121,24 @@
     
     .Footter-sub-bottom-div-one{
         padding: 2vh 5vw;
+        display: flex;
+        justify-content: space-between;
+        padding-right: 5vw;
     }
     .Footter-sub-bottom-div-two{
         padding-top: 2vh 5vw;
+        display: flex;
+        justify-content: space-between;
+        padding-right: 5vw;
     }
     .Footter-sub-bottom-div-three{
         padding-top: 2vh 5vw;
+        display: flex;
+        justify-content: space-between;
+        padding-right: 50%;
+        align-items: center;
+    }
+    .hide-angle-down-large{
+        display: block;
     }
 }
