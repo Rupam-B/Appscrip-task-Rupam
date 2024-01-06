@@ -11,7 +11,6 @@ import { useSelector } from 'react-redux';
 function App() {
 
   const sidebarData = useSelector((state)=>state.OpenCloseSidebar)
-  console.log(sidebarData)
   return (
     <>
     <Navbar/>

@@ -50,8 +50,6 @@ const Home = () => {
     fetchData();
   }, []);
 
-  console.log(apiData)
-
   return (
     <>
       <div className="Home-main-div">
